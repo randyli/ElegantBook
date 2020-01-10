@@ -291,7 +291,7 @@
 \graphicspath{{./figure/}{./figures/}{./image/}{./images/}{./graphics/}{./graphic/}{./pictures/}{./picture/}}
 
 \RequirePackage{tikz}
-\usetikzlibrary{backgrounds,calc,shadows}
+\usetikzlibrary{backgrounds,calc,shadows,positioning}
 \usepackage[object=vectorian]{pgfornament} %% 
 
 \newcommand*{\eitemi}{\tikz \draw [baseline, ball color=structurecolor,draw=none] circle (2pt);}
